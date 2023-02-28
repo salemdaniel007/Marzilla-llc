@@ -55,5 +55,5 @@ const absoluteFilePath = path.resolve(filePath);
 //getMergedCells call with the file path to store the resulting mergedCells object.
 const mergedCells = getMergedCells(absoluteFilePath);
 
-console.log(mergedCells.Sheet1);
+console.log(mergedCells);
 
